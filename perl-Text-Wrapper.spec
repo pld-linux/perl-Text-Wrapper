@@ -29,7 +29,7 @@ Text::Format module.
 %description -l pl
 Modu³ Perla Text::Wrapper udostêpnia proste zawijanie wierszy. £amie
 d³ugie wiersz, ale nie zmienia odstêpów ani nie usuwa istniej±cych
-znaków nowefo wiersza. Bardziej wyszukane formatowanie tekstu jest
+znaków nowego wiersza. Bardziej wyszukane formatowanie tekstu jest
 mo¿liwe przy zastosowaniu modu³u Text::Format.
 
 %prep
