@@ -25,7 +25,7 @@ Text-Wrapper udostêpnia proste zawijanie linii.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
