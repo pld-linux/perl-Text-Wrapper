@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Wrapper
+%define		pdir	Text
+%define		pnam	Wrapper
 Summary:	Text::Wrapper - simple word wrapping routine
 Summary(pl):	Text::Wrapper - proste zawijanie linii
 Name:		perl-Text-Wrapper
