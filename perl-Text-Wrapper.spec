@@ -5,7 +5,7 @@ Summary:	Text::Wrapper perl module
 Summary(pl):	Modu³ perla Text::Wrapper
 Name:		perl-Text-Wrapper
 Version:	1.000
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
