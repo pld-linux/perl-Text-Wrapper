@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Wrapper
-Summary:	Text-Wrapper perl module
-Summary(pl):	Modu³ perla Text-Wrapper
+Summary:	Text::Wrapper perl module
+Summary(pl):	Modu³ perla Text::Wrapper
 Name:		perl-Text-Wrapper
 Version:	1.000
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Wrapper - provides simple word wrapping.
+Text::Wrapper - provides simple word wrapping.
 
 %description -l pl
-Text-Wrapper udostêpnia proste zawijanie linii.
+Text::Wrapper udostêpnia proste zawijanie linii.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
