@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Wrapper
-Summary:	Text::Wrapper perl module
-Summary(pl):	Modu³ perla Text::Wrapper
+Summary:	Text::Wrapper - simple word wrapping routine
+Summary(pl):	Text::Wrapper - proste zawijanie linii
 Name:		perl-Text-Wrapper
 Version:	1.000
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -21,10 +21,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Wrapper - provides simple word wrapping.
+Text::Wrapper Perl Module provides simple word wrapping.  It breaks
+long lines, but does not alter spacing or remove existing line breaks. 
+If you're looking for more sophisticated text formatting, try the
+Text::Format module.
 
 %description -l pl
-Text::Wrapper udostêpnia proste zawijanie linii.
+Modu³ Perla Text::Wrapper udostêpnia proste zawijanie wierszy. £amie
+d³ugie wiersz, ale nie zmienia odstêpów ani nie usuwa istniej±cych
+znaków nowefo wiersza. Bardziej wyszukane formatowanie tekstu jest
+mo¿liwe przy zastosowaniu modu³u Text::Format.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
