@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Wrapper
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Wrapper perl module
 Summary(pl):	Modu³ perla Text-Wrapper
 Name:		perl-Text-Wrapper
 Version:	1.000
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-Wrapper - provides simple word wrapping.
 Text-Wrapper udostêpnia proste zawijanie linii.
 
 %prep
-%setup -q -n Text-Wrapper-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
