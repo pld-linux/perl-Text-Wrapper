@@ -26,7 +26,7 @@ Text::Wrapper udostêpnia proste zawijanie linii.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
