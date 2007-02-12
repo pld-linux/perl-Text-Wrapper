@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Wrapper
 Summary:	Text::Wrapper - simple word wrapping routine
-Summary(pl):	Text::Wrapper - proste zawijanie linii
+Summary(pl.UTF-8):   Text::Wrapper - proste zawijanie linii
 Name:		perl-Text-Wrapper
 Version:	1.000
 Release:	11
@@ -26,11 +26,11 @@ long lines, but does not alter spacing or remove existing line breaks.
 If you're looking for more sophisticated text formatting, try the
 Text::Format module.
 
-%description -l pl
-Modu≥ Perla Text::Wrapper udostÍpnia proste zawijanie wierszy. £amie
-d≥ugie wiersz, ale nie zmienia odstÍpÛw ani nie usuwa istniej±cych
-znakÛw nowego wiersza. Bardziej wyszukane formatowanie tekstu jest
-moøliwe przy zastosowaniu modu≥u Text::Format.
+%description -l pl.UTF-8
+Modu≈Ç Perla Text::Wrapper udostƒôpnia proste zawijanie wierszy. ≈Åamie
+d≈Çugie wiersz, ale nie zmienia odstƒôp√≥w ani nie usuwa istniejƒÖcych
+znak√≥w nowego wiersza. Bardziej wyszukane formatowanie tekstu jest
+mo≈ºliwe przy zastosowaniu modu≈Çu Text::Format.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
