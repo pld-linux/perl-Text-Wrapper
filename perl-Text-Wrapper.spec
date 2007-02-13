@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Wrapper
 Summary:	Text::Wrapper - simple word wrapping routine
-Summary(pl.UTF-8):   Text::Wrapper - proste zawijanie linii
+Summary(pl.UTF-8):	Text::Wrapper - proste zawijanie linii
 Name:		perl-Text-Wrapper
 Version:	1.000
 Release:	11
