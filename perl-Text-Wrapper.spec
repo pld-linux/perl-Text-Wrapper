@@ -8,13 +8,13 @@
 Summary:	Text::Wrapper - simple word wrapping routine
 Summary(pl.UTF-8):	Text::Wrapper - proste zawijanie linii
 Name:		perl-Text-Wrapper
-Version:	1.01
+Version:	1.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5cb16ba359a84f52d44dfcbd7b93443a
+# Source0-md5:	a0cdfe6e9e9627db147b3970d3fcad4d
 URL:		http://search.cpan.org/dist/Text-Wrapper/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
