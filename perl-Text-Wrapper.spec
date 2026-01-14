@@ -8,7 +8,7 @@ Summary:	Text::Wrapper - simple word wrapping routine
 Summary(pl.UTF-8):	Text::Wrapper - proste zawijanie linii
 Name:		perl-Text-Wrapper
 Version:	1.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
